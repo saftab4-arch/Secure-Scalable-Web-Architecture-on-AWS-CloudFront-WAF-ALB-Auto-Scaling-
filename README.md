@@ -2,7 +2,7 @@
 
 ### CloudFront + WAF + ALB + Auto Scaling (Multi-AZ)
 
----
+---> Designed and implemented a secure, scalable, multi-AZ web architecture using AWS CloudFront, WAF, ALB, and Auto Scaling.
 
 ## 📌 Overview
 
