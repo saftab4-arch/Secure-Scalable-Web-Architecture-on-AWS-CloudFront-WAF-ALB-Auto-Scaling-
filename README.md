@@ -78,7 +78,11 @@ To design and validate a **secure, scalable, and highly available web architectu
 5. ALB distributes traffic across EC2 instances
 6. EC2 instances (private subnet) process request
 7. Response flows back via ALB → CloudFront → User
+8. 
+🔐 Implemented secure communication using:
 
+HTTPS (TLS via ACM) at CloudFront/ALB
+HTTP (internal) between ALB → EC2 for simplicity in private network
 ---
 
 
