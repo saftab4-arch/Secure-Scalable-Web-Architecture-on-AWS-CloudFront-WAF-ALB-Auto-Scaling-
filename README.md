@@ -63,6 +63,10 @@ To design and validate a **secure, scalable, and highly available web architectu
               Auto Scaling Group
 ```
 
+## 🏗️ Final Production Architecture (CloudFront + WAF + ALB + ASG)
+
+![AWS Architecture](arch-diagram/final-architecture.png)
+
 ---
 
 ## 🔄 End-to-End Workflow
@@ -76,6 +80,8 @@ To design and validate a **secure, scalable, and highly available web architectu
 7. Response flows back via ALB → CloudFront → User
 
 ---
+
+
 
 ## 🔐 Security Design
 
